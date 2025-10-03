@@ -1,6 +1,6 @@
-import LanguageChatBot from './Components/LanguageChatBot'
-import QaApp from './Components/QaApp'
-import WiktionaryApp from './Components/WiktionaryApp'
+import LanguageChatBot from './GitHubProjects/LanguageChatBot'
+import QaApp from './GitHubProjects/QaApp'
+import WiktionaryApp from './GitHubProjects/WiktionaryApp'
 import './Projects.css'
 
 const Projects: React.FC = () => {
