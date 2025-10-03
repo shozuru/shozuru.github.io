@@ -1,0 +1,62 @@
+.projects-page-header h1 {
+    background-color: rgba(0, 0, 0, 0.1);
+    border: solid black 2px;
+    border-radius: 45px;
+    width: fit-content;
+    margin: 2rem auto;
+    padding: 1rem 2rem;
+    margin-top: 3rem;
+}
+
+.main-projects-page-container {
+    font-size: 25px;
+}
+
+.qa-app-container,
+.language-learning-chatbot,
+.wiktionary-app {
+    text-align: left;
+    border: solid black 2px;
+    border-radius: 10px;
+    width: 700px;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+    padding: 1rem;
+}
+
+.qa-app-container h2,
+.language-learning-chatbot h2,
+.wiktionary-app h2 {
+    margin: 0;
+}
+
+.tools-container h3 {
+    margin: 0;
+}
+
+.frontend-tools p,
+.backend-tools p,
+.nlp-models p {
+    font-weight: bold;
+    margin: 0.5rem 0;
+}
+
+.qa-app-container ul,
+.language-learning-chatbot ul,
+.wiktionary-app ul,
+.nlp-models ul {
+    margin: 0;
+}
+
+.github-repo {
+    width: fit-content;
+    margin: 1rem auto;
+    margin-bottom: 0.5rem;
+}
+
+.github-repo a {
+    border: solid blue 2px;
+    border-radius: 45px;
+    padding: 0.25rem 1rem;
+    text-decoration: none;
+}
