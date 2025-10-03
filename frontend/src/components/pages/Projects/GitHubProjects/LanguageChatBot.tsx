@@ -1,7 +1,5 @@
 import GitHubRepo from "./GitHubRepo"
 
-GitHubRepo
-
 const LanguageChatBot: React.FC = () => {
 
     return (
