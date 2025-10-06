@@ -24,7 +24,7 @@
 }
 
 .personal-information {
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: rgba(0, 0, 0, 0.5);
     border: solid black 2px;
     border-radius: 8px;
     padding: 0.5rem;
@@ -48,7 +48,7 @@
 
 .input-form {
     border: solid black 2px;
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: rgba(0, 0, 0, 0.5);
     border-radius: 8px;
     padding: 0.5rem 1rem;
 }

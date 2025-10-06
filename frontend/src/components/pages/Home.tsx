@@ -1,26 +1,42 @@
+import "./Home.css"
+
 const Home: React.FC = () => {
 
     return (
 
-        <div>
+        <div
+            className="home-page-container"
+        >
             <header
                 className='home-page-header'
             >
                 <h1>
-                    Andrew Amadeo
+                    Welcome to my personal website!
                 </h1>
+
+                <h3>
+                    I'm Andrew Amadeo, an aspiring software engineer interested
+                    in language technology!
+                </h3>
 
             </header>
 
             <main
-                className='main-app-component'
+                className='main-home-page-container'
             >
-                <h2>
-                    This is the home page
-                </h2>
 
                 <p>
-                    Welcome to my personal website!
+                    If you want to learn more about me, click the About tab!
+                </p>
+
+                <p>
+                    Feel free to look at some of my featured Projects in the
+                    projects tab!
+                </p>
+
+                <p>
+                    You can find ways to contact me by clicking on the Contact
+                    tab!
                 </p>
             </main>
         </div>
