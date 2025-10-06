@@ -67,3 +67,21 @@
 .linkedIn-link {
     text-decoration: none;
 }
+
+.submit-button {
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: solid black 2px;
+    font-size: 20px;
+    margin: 0 auto;
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    width: fit-content;
+    transition: background-color 0.3s ease
+}
+
+.submit-button:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+}

@@ -1,6 +1,60 @@
+import { useState } from 'react'
 import './contact.css'
 
+interface FormInfo {
+    name: string
+    email: string,
+    message: string
+}
+
 const Contact: React.FC = () => {
+
+    const [formData, setFormData] = useState<FormInfo>({
+        name: "",
+        email: "",
+        message: ""
+    })
+
+    const handleChange = (e: React.ChangeEvent<HTMLInputElement> |
+        React.ChangeEvent<HTMLTextAreaElement>) => {
+
+        const { name, value } = e.target
+        setFormData((prev) => ({ ...prev, [name]: value }))
+    }
+
+    const handleSubmit = async (e: React.FormEvent<HTMLInputElement>) => {
+        e.preventDefault()
+
+        const form = new FormData()
+        Object.entries(formData).forEach(([key, value]) =>
+            form.append(key, value))
+
+        try {
+            const response = await fetch("https://getform.io/f/bolzwvma",
+                {
+                    method: "POST",
+                    body: form
+                }
+            )
+
+            if (response.ok) {
+                alert("Message has been sent!")
+                setFormData(
+                    {
+                        name: "",
+                        email: "",
+                        message: ""
+                    }
+                )
+            } else {
+                alert("Failed to send message.")
+            }
+
+        } catch (error) {
+            console.log(error)
+            alert('Error sending message.')
+        }
+    }
 
     return (
 
@@ -87,22 +141,38 @@ const Contact: React.FC = () => {
                                 Name:
                             </p>
                             <input
-                                type='text'
+                                name='name'
                                 className='input-name'
+                                value={formData.name}
+                                onChange={handleChange}
+                                required
                             />
                             <p>
                                 Email:
                             </p>
                             <input
-                                type='text'
+                                name='email'
                                 className='input-email'
+                                value={formData.email}
+                                onChange={handleChange}
+                                required
                             />
                             <p>
                                 Message:
                             </p>
                             <textarea
+                                name='message'
                                 className='input-message'
+                                value={formData.message}
+                                onChange={handleChange}
                                 rows={5}
+                                required
+                            />
+                            <input
+                                type='submit'
+                                className='submit-button'
+                                value='Send message'
+                                onClick={handleSubmit}
                             />
                         </form>
                     </div>
