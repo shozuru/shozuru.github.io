@@ -1,7 +1,7 @@
 import './App.css'
 import { HashRouter as Router, Routes, Route } from 'react-router-dom'
 import TopNavigation from './components/TopNavigation'
-import Home from './components/pages/Home'
+import Home from './components/pages/Home/Home'
 import About from './components/pages/About/About'
 import Contact from './components/pages/Contact/Contact'
 import Projects from './components/pages/Projects/Projects'
