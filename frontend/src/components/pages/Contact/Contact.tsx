@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState, useRef } from 'react'
 import './contact.css'
 
 interface FormInfo {
@@ -25,34 +25,57 @@ const Contact: React.FC = () => {
     const handleSubmit = async (e: React.FormEvent<HTMLInputElement>) => {
         e.preventDefault()
 
-        const form = new FormData()
-        Object.entries(formData).forEach(([key, value]) =>
-            form.append(key, value))
+        const emptyField = Object.values(formData).some(value => value === "")
 
-        try {
-            const response = await fetch("https://getform.io/f/bolzwvma",
-                {
-                    method: "POST",
-                    body: form
-                }
-            )
+        if (emptyField) {
 
-            if (response.ok) {
-                alert("Message has been sent!")
-                setFormData(
+            const inputName =
+                document.getElementById('input-name') as HTMLElement
+            formData.name === "" ? inputName.style.borderColor = "red" :
+                inputName.style.border = ""
+
+            const inputEmail =
+                document.getElementById('input-email') as HTMLElement
+            formData.email === "" ? inputEmail.style.borderColor = "red" :
+                inputEmail.style.border = ""
+
+            const inputMessage =
+                document.getElementById('input-message') as HTMLElement
+            formData.message === "" ? inputMessage.style.borderColor = "red" :
+                inputMessage.style.border = ""
+
+            alert("Please fill in the fields in red.")
+
+        } else {
+            const form = new FormData()
+            Object.entries(formData).forEach(([key, value]) =>
+                form.append(key, value))
+
+            try {
+                const response = await fetch("https://getform.io/f/bolzwvma",
                     {
-                        name: "",
-                        email: "",
-                        message: ""
+                        method: "POST",
+                        body: form
                     }
                 )
-            } else {
-                alert("Failed to send message.")
-            }
 
-        } catch (error) {
-            console.log(error)
-            alert('Error sending message.')
+                if (response.ok) {
+                    alert("Message has been sent!")
+                    setFormData(
+                        {
+                            name: "",
+                            email: "",
+                            message: ""
+                        }
+                    )
+                } else {
+                    alert("Failed to send message.")
+                }
+
+            } catch (error) {
+                console.log(error)
+                alert('Error sending message.')
+            }
         }
     }
 
@@ -140,33 +163,34 @@ const Contact: React.FC = () => {
                             <p>
                                 Name:
                             </p>
+
                             <input
                                 name='name'
+                                id='input-name'
                                 className='input-name'
                                 value={formData.name}
                                 onChange={handleChange}
-                                required
                             />
                             <p>
                                 Email:
                             </p>
                             <input
                                 name='email'
+                                id='input-email'
                                 className='input-email'
                                 value={formData.email}
                                 onChange={handleChange}
-                                required
                             />
                             <p>
                                 Message:
                             </p>
                             <textarea
                                 name='message'
+                                id='input-message'
                                 className='input-message'
                                 value={formData.message}
                                 onChange={handleChange}
-                                rows={5}
-                                required
+                                rows={4}
                             />
                             <input
                                 type='submit'
