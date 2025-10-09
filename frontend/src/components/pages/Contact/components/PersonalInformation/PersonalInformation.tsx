@@ -42,7 +42,7 @@ const PersonalInformation: React.FC = () => {
                 <span
                     className='location-details'
                 >
-                    Based in the DMV.
+                    Based in the DMV
                 </span>
             </p>
             <p>
@@ -54,7 +54,7 @@ const PersonalInformation: React.FC = () => {
                 <span
                     className='time-zone-details'
                 >
-                    Eastern Standard Time.
+                    Eastern Standard Time
                 </span>
             </p>
         </div>
