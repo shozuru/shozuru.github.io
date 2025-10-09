@@ -31,8 +31,8 @@ const Home: React.FC = () => {
                 </p>
 
                 <p>
-                    Feel free to look at some of my featured Projects in the
-                    projects tab!
+                    Feel free to look at some of my featured projects in the
+                    Projects tab!
                 </p>
 
                 <p>
