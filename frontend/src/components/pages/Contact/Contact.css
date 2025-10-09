@@ -9,8 +9,6 @@
 }
 
 .main-contact-page-container {
-    width: fit-content;
-    margin: 0 auto;
     text-align: left;
 }
 
@@ -27,7 +25,9 @@
     background-color: rgba(0, 0, 0, 0.5);
     border: solid black 2px;
     border-radius: 8px;
-    padding: 0.5rem;
+    padding: 0.5rem 1rem;
+    width: fit-content;
+    margin: 0 auto;
 }
 
 .personal-information p {
@@ -39,6 +39,11 @@
 .time-zone-details,
 .linkedIn-link {
     margin-left: 0.25rem;
+}
+
+.contact-form-container {
+    width: fit-content;
+    margin: 0 auto;
 }
 
 .contact-form-container h3 {

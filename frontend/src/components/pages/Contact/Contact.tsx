@@ -191,6 +191,7 @@ const Contact: React.FC = () => {
                                 value={formData.message}
                                 onChange={handleChange}
                                 rows={4}
+                                cols={30}
                             />
                             <input
                                 type='submit'
