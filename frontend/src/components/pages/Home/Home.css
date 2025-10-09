@@ -10,13 +10,13 @@
 
 .home-page-header h3 {
     font-size: 30px;
-    width: 700px;
+    max-width: 700px;
 }
 
 .main-home-page-container {
     font-size: 25px;
     border-radius: 8px;
-    width: 700px;
+    max-width: 700px;
     margin: 0 auto;
     margin-top: 5rem;
 }
@@ -34,6 +34,6 @@
 }
 
 .main-home-page-container p {
-    width: 600px;
+    max-width: 600px;
     background-color: rgba(255, 255, 255, 0.5);
 }
