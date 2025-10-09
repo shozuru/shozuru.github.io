@@ -26,7 +26,8 @@ const Home: React.FC = () => {
             >
 
                 <p>
-                    If you want to learn more about me, click the About tab!
+                    If you want to learn more about me or see my resume, click
+                    the About tab!
                 </p>
 
                 <p>

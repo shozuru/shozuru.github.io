@@ -25,5 +25,22 @@
     padding: 2rem;
     align-self: center;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.9);
+}
 
+.resume-link {
+    text-decoration: none;
+}
+
+.resume-button {
+    color: blue;
+    border: solid black 2px;
+    border-radius: 35px;
+    display: block;
+    margin: 0 auto;
+    padding: 0.5rem 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.resume-button:hover {
+    background-color: rgba(0, 0, 0, 0.2);
 }

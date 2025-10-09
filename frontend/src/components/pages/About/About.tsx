@@ -41,7 +41,19 @@ const About: React.FC = () => {
                             approachable for a general audience.
                         </p>
 
+                        <a
+                            className='resume-link'
+                            href='/resume/Resume_Amadeo_2025.pdf'
+                            download
+                        >
+                            <button
+                                className='resume-button'
+                            >
+                                Download my resume
+                            </button>
+                        </a>
                     </div>
+
                     <div
                         className='professional-background'
                     >
