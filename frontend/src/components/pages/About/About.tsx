@@ -30,15 +30,16 @@ const About: React.FC = () => {
                             I am an aspiring software engineer with a
                             background in linguistics, passionate about
                             developing technology that enhances language
-                            accessibility and education. My interests are in
+                            learning and accessibility. My interests are in
                             designing applications that support language
-                            learning in ways that are both linguistically
-                            accurate  and user-friendly, bridging theory with
-                            real-world usability. I am particularly interested
-                            in projects at the intersection of natural language
-                            processing, education, and technology, and I enjoy
-                            creating products that make language more
-                            approachable for a general audience.
+                            growth in ways that are linguistically
+                            accurate and yet still intuitive, bridging the gap
+                            between theory and real-world applicability. I am
+                            particularly interested in projects at the
+                            intersection of natural language processing,
+                            education, and machine-learning, and I enjoy
+                            creating products that make language learning more
+                            approachable to people.
                         </p>
 
                         <a
@@ -74,14 +75,17 @@ const About: React.FC = () => {
                         </p>
                         <p>
                             I am especially drawn to building applications that
-                            have real-world impact. My background in linguistics
-                            provides me with unique insights into natural
-                            language processing and educational technology,
-                            helping me design systems that use the right
-                            metrics and approaches to handle the complexity of
-                            language. Looking ahead, I aim to grow at the
-                            intersection of edtech, NLP, and AI for language
-                            accessibility.
+                            have a real impact in terms of user-experience. My
+                            background in linguistics provides me with unique
+                            insights into natural language processing and the
+                            ways second language is acquired, both of which
+                            help me design systems that use the right metrics
+                            and approaches to handle the complexity of
+                            language, while being approachable to those who do
+                            not have an extensive background in linguistics.
+                            Looking ahead, I want to learn more about edtech,
+                            NLP, and the ways that AI can be used to make
+                            language learning more effective.
                         </p>
                     </div>
                     <div
@@ -104,16 +108,20 @@ const About: React.FC = () => {
                         </h3>
                         <p>
                             Outside of coding, I love learning about the world
-                            through watching documentaries, and understanding
-                            different perspectives and ways of life. I also
-                            practice Japanese through reading and conversation.
-                            In my work, I am driven by a desire to make the
-                            user experience more data-accurate and meaningful.
-                            I am passionate about building language technology
-                            because learning languages can broaden the mind,
-                            challenge previously held assumptions, and open new
-                            opportunities for people. I see technology as a way
-                            to make these experiences more accessible.
+                            through watching documentaries, engaging with
+                            people from all walks of life, and learning about
+                            different perspectives. I have a particular
+                            interest in the Japanese language and Japanese
+                            culture and I make an effort to practice
+                            Japanese daily through reading and conversation. In
+                            my work, I am driven by a desire to be thorough and
+                            diligent, while making sure to keep a clear
+                            perspective of the bigger picture. I am passionate
+                            about building language technology because I
+                            believe learning languages can broaden the mind,
+                            challenge previously held assumptions, and open
+                            doors to new opportunities. I see technology as a
+                            way to make these opportunities more accessible.
                         </p>
 
                     </div>
