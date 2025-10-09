@@ -4,40 +4,39 @@ import './TopNavigation.css'
 const TopNavigation: React.FC = () => {
 
     return (
-        <>
-            <nav
-                className='topnav'
+
+        <nav
+            className='topnav'
+        >
+            <Link
+                to="/"
+                className='home'
             >
-                <Link
-                    to="/"
-                    className='home'
-                >
-                    Home
+                Home
 
-                </Link>
-                <Link
-                    to="/about"
-                    className='about'
-                >
-                    About
+            </Link>
+            <Link
+                to="/about"
+                className='about'
+            >
+                About
 
-                </Link>
-                <Link
-                    to="/projects"
-                    className='projects'
-                >
-                    Projects
+            </Link>
+            <Link
+                to="/projects"
+                className='projects'
+            >
+                Projects
 
-                </Link>
-                <Link
-                    to="/contact"
-                    className='contact'
-                >
-                    Contact
+            </Link>
+            <Link
+                to="/contact"
+                className='contact'
+            >
+                Contact
 
-                </Link>
-            </nav >
-        </>
+            </Link>
+        </nav >
     )
 }
 
