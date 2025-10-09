@@ -1,0 +1,45 @@
+.contact-form-container {
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.contact-form-container h3 {
+    margin: 0;
+    margin-top: 1.5rem;
+}
+
+.input-form {
+    border: solid black 2px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+    padding: 0.5rem 1rem;
+}
+
+.input-form p {
+    margin: 0;
+}
+
+.input-name,
+.input-email,
+.input-message {
+    width: 100%;
+    font-size: 20px;
+}
+
+.submit-button {
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: solid black 2px;
+    font-size: 20px;
+    margin: 0 auto;
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    width: fit-content;
+    transition: background-color 0.3s ease
+}
+
+.submit-button:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+}
