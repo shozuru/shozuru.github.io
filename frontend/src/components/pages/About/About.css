@@ -38,9 +38,10 @@
     display: block;
     margin: 0 auto;
     padding: 0.5rem 1rem;
-    transition: background-color 0.3s ease;
+    transition: background-color 0.3s ease, color;
 }
 
 .resume-button:hover {
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
 }
