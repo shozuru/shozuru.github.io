@@ -26,7 +26,7 @@ This website includes the following pages
 * Hosted on Github pages
 
 # How to Access:
-https//www.shozuru.github.io
+https://www.shozuru.github.io
 
 # License
 This project is open source and available under the MIT License
