@@ -5,7 +5,6 @@
 
     color-scheme: light dark;
     color: rgba(255, 255, 255, 0.87);
-    /* background-color: #242424; */
 
     font-synthesis: none;
     text-rendering: optimizeLegibility;
@@ -42,7 +41,6 @@ button:focus-visible {
 @media (prefers-color-scheme: light) {
     :root {
         color: #213547;
-        /* background-color: #ffffff; */
     }
 
     a:hover {
@@ -55,7 +53,7 @@ button:focus-visible {
 }
 
 body {
-    background: linear-gradient(-45deg, #68600a, #ebde25, #33eab9, #1e8a76);
+    background: linear-gradient(-45deg, #68340a, #ebde25, #33eab9, #1e408a);
     background-size: 400% 400%;
     animation: gradientShift 30s ease infinite;
     color: white;
