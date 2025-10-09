@@ -15,7 +15,7 @@
 .qa-app-container,
 .language-learning-chatbot,
 .wiktionary-app {
-    background-color: rgba(30, 144, 255, 0.7);
+    background-color: rgb(233, 233, 233);
     color: black;
     text-align: left;
     border: solid black 2px;

@@ -14,8 +14,8 @@
 }
 
 .about-info div {
-    border: solid dodgerblue 2px;
-    background-color: rgba(30, 144, 255, 0.7);
+    border: solid rgb(14, 84, 154) 2px;
+    background-color: rgb(233, 233, 233);
     color: black;
     border-radius: 50px;
     width: 40%;
