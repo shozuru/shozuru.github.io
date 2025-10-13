@@ -6,9 +6,9 @@ This is the repository for my personal website. It showcases a little bit about 
 
 This website includes the following pages
 * Home Page: A short introduction to myself, and guides on where to look for specific information
-* About Me Page: A more in depth introduction, including my academic background, current interests, as well as some of my hobbies.
-* Projects Page: Showcases three projects I have worked on recently with descriptions and links to each of their GitHub repositories.  
-* Contact Page: Includes ways to contact me as well as a form for visitors to send me messages directly.  
+* About Me Page: A more in depth introduction, including my academic background, resume, current interests, and some of my hobbies.
+* Projects Page: Showcases three projects I have worked on recently with descriptions and links to their GitHub repositories.  
+* Contact Page: Includes ways to contact me and a form for visitors to send me messages directly.  
 
 
 # Tech Stack
