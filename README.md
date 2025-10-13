@@ -1,6 +1,6 @@
 # Personal Website
 
-This is the repository for my personal website. It showcases a little bit about myself, some projects I have worked on, as well as provides a way for people to get in contact with me.
+This is the repository for my personal website. It showcases a little bit about myself, some projects I have worked on, as well as provides a way to get in contact with me.
 
 ## Overview
 
