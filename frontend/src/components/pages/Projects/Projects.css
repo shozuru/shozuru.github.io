@@ -50,13 +50,15 @@
     margin: 0;
 }
 
-.github-repo {
+.github-repo,
+.demo-link {
     width: fit-content;
     margin: 1rem auto;
     margin-bottom: 0.5rem;
 }
 
-.github-repo a {
+.github-repo a,
+.demo-link a {
     border: solid black 2px;
     background-color: rgba(0, 0, 0, 0.1);
     border-radius: 45px;
@@ -65,7 +67,8 @@
     transition: background-color 0.3s ease, color;
 }
 
-.github-repo a:hover {
+.github-repo a:hover,
+.demo-link a:hover {
     background-color: rgba(0, 0, 0, 0.7);
     color: white
 }

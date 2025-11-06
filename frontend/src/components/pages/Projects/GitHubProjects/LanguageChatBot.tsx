@@ -1,4 +1,5 @@
-import GitHubRepo from "./GitHubRepo"
+import GitHubRepo from "./utils/GitHubRepo"
+import ProjectDemo from "./utils/ProjectDemo"
 
 const LanguageChatBot: React.FC = () => {
 
@@ -88,6 +89,10 @@ const LanguageChatBot: React.FC = () => {
 
             <GitHubRepo
                 link='https://github.com/shozuru/japanese-chatbot'
+            />
+
+            <ProjectDemo
+                link="https://shozuru.github.io/japanese-chatbot/"
             />
         </div>
     )

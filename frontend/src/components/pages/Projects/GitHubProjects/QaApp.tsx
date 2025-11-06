@@ -1,4 +1,5 @@
-import GitHubRepo from "./GitHubRepo";
+import GitHubRepo from "./utils/GitHubRepo";
+import ProjectDemo from "./utils/ProjectDemo";
 
 const QaApp: React.FC = () => {
 
@@ -70,6 +71,10 @@ const QaApp: React.FC = () => {
 
             <GitHubRepo
                 link='https://github.com/shozuru/qa-text-application'
+            />
+
+            <ProjectDemo
+                link="https://shozuru.github.io/qa-text-application/"
             />
         </div>
     )

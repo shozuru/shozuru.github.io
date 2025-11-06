@@ -1,4 +1,5 @@
-import GitHubRepo from "./GitHubRepo"
+import GitHubRepo from "./utils/GitHubRepo"
+import ProjectDemo from "./utils/ProjectDemo"
 
 const WiktionaryApp: React.FC = () => {
 
@@ -71,6 +72,10 @@ const WiktionaryApp: React.FC = () => {
 
             <GitHubRepo
                 link='https://github.com/shozuru/wiktionary-lookup'
+            />
+
+            <ProjectDemo
+                link="https://shozuru.github.io/wiktionary-lookup/"
             />
         </div>
     )
