@@ -22,9 +22,8 @@ const Home: React.FC = () => {
             </header>
 
             <main
-                className='main-home-page-container'
+                className='home-page-info'
             >
-
                 <p>
                     If you want to learn more about me or see my resume, click
                     the About tab!

@@ -13,7 +13,7 @@
     max-width: 700px;
 }
 
-.main-home-page-container {
+.home-page-info {
     font-size: 25px;
     border-radius: 8px;
     max-width: 700px;
@@ -22,7 +22,7 @@
 }
 
 .home-page-header h3,
-.main-home-page-container p {
+.home-page-info p {
     color: black;
     background-color: rgba(255, 255, 255, 0.5);
     border: solid black 2px;
@@ -33,7 +33,23 @@
     margin: 1rem auto;
 }
 
-.main-home-page-container p {
+.home-page-info p {
     max-width: 600px;
     background-color: rgba(255, 255, 255, 0.5);
+}
+
+@media (max-width: 768px) {
+    .home-page-header h1 {
+        font-size: 1.5rem;
+        width: 80%;
+        text-align: center;
+    }
+
+    .home-page-info,
+    .home-page-header h3 {
+        max-width: 90%;
+        font-size: 18px;
+        margin: 0 auto;
+        padding: 1.5rem;
+    }
 }
