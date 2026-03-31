@@ -1,4 +1,4 @@
-import GitHubRepo from "./utils/GitHubRepo";
+import GitHubRepo from "./GitHubRepo";
 import ProjectDemo from "./utils/ProjectDemo";
 
 const QaApp: React.FC = () => {
