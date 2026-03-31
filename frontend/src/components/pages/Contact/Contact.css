@@ -8,15 +8,28 @@
     margin-top: 3rem;
 }
 
-.main-contact-page-container {
+.contact-page-container-info {
     text-align: left;
 }
 
-.main-contact-page-container p,
-.main-contact-page-container a {
+.contact-page-container-info p,
+.contact-page-container-info a {
     font-size: 20px;
 }
 
-.main-contact-page-container h3 {
+.contact-page-container-info h3 {
     font-size: 30px;
+}
+
+@media (max-width: 768px) {
+    .contact-page-header h1 {
+        font-size: 1.5rem;
+        width: 80%;
+        text-align: center;
+    }
+
+    .contact-page-container-info p,
+    .contact-page-container-info a {
+        font-size: 17px;
+    }
 }

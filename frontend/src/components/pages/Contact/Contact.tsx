@@ -19,7 +19,7 @@ const Contact: React.FC = () => {
 
             <main>
                 <div
-                    className='main-contact-page-container'
+                    className='contact-page-container-info'
                 >
                     <PersonalInformation />
 
