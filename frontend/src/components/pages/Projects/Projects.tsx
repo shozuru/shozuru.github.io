@@ -19,7 +19,7 @@ const Projects: React.FC = () => {
             </header>
 
             <main
-                className="main-projects-page-container"
+                className="projects-page-info"
             >
                 <WiktionaryApp />
 
